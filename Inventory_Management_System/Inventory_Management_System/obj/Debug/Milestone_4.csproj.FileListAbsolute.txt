@@ -1,0 +1,11 @@
+C:\Users\codeartist1991\Source\Repos\cst_117\Milestone_4\Milestone_4\bin\Debug\Milestone_4.exe.config
+C:\Users\codeartist1991\Source\Repos\cst_117\Milestone_4\Milestone_4\bin\Debug\Milestone_4.exe
+C:\Users\codeartist1991\Source\Repos\cst_117\Milestone_4\Milestone_4\bin\Debug\Milestone_4.pdb
+C:\Users\codeartist1991\Source\Repos\cst_117\Milestone_4\Milestone_4\obj\Debug\Milestone_4.csprojAssemblyReference.cache
+C:\Users\codeartist1991\Source\Repos\cst_117\Milestone_4\Milestone_4\obj\Debug\Milestone_4.Properties.Resources.resources
+C:\Users\codeartist1991\Source\Repos\cst_117\Milestone_4\Milestone_4\obj\Debug\Milestone_4.csproj.GenerateResource.cache
+C:\Users\codeartist1991\Source\Repos\cst_117\Milestone_4\Milestone_4\obj\Debug\Milestone_4.csproj.CoreCompileInputs.cache
+C:\Users\codeartist1991\Source\Repos\cst_117\Milestone_4\Milestone_4\obj\Debug\Milestone_4.exe
+C:\Users\codeartist1991\Source\Repos\cst_117\Milestone_4\Milestone_4\obj\Debug\Milestone_4.pdb
+C:\Users\codeartist1991\Source\Repos\cst_117\Milestone_4\Milestone_4\obj\Debug\Milestone_4.Close.resources
+C:\Users\codeartist1991\Source\Repos\cst_117\Milestone_4\Milestone_4\obj\Debug\Milestone_4.homeScreen.resources
