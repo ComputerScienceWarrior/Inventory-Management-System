@@ -246,5 +246,10 @@ namespace Inventory_Management_System
                 }
             }
         }
-    }
+
+		private void updateName_TextChanged(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
