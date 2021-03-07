@@ -33,7 +33,8 @@ namespace Inventory_Management_System
             {
                 if (item.ItemName == updatedName)
                 {
-                    MessageBox.Show("Procut updated!");
+                    MessageBox.Show("Product updated successfully!");
+					break;
                 }
             }
 			//restock items quantity
