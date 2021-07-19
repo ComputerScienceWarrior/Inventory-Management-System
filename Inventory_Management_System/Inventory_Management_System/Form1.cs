@@ -53,8 +53,6 @@ namespace Inventory_Management_System
             addQuantity.Text = "";
             searchQuantity.Text = "";
             updateQuantity.Text = "";
-
-
 		}
 
 		private void addButton_Click(object sender, EventArgs e)
@@ -66,9 +64,9 @@ namespace Inventory_Management_System
 			//error handling for adding the product information
 			try
 			{
-				if(decimal.TryParse(addPrice.Text, out price))
+				if(decimal.TryParse(addPrice.Text, out price)) //ensure price is a 'decimal'
 				{
-					if(int.TryParse(addQuantity.Text, out quantity))
+					if(int.TryParse(addQuantity.Text, out quantity)) //ensure price is an 'integer'
 					{
 						name = addName.Text;
 						inventory.add(products, new InventoryItem(name, price, quantity));
@@ -228,27 +226,8 @@ namespace Inventory_Management_System
 
         private void searchButton_Click(object sender, EventArgs e)
 		{
-			/*
-			 * Only issue with search is the casing.
-			 * Actually, more issue found (5/13/19) message box displaying too many times
-			 * and other strange bugs with the message box search.
-             * 8/30/2019 FIXED ISSUE WITH MULTIPLE MESSAGE BOX BY REMOVING 'ELSE' BLOCK OF 'IF-ELSE' STATEMENT
-             * Now the proper searched Items returns.. HOWEVER.. need to determine whether 'search' is necessary in InventoryManager.cs
-			 */
-			//test loop to fix bug in foreach loop
-			for (int i = 0; i < products.Count; i++)
-			{
-                inventory.search(products, products[i]);
-                if (products[i].ItemName.Equals(searchName.Text))
-                {
-                    //change this to display searched item in listbox
-                    MessageBox.Show("Item " + searchName.Text + " found in Inventory!");
-				}
-				else
-				{
-					MessageBox.Show("Nothing found.");
-				}
-            }
+			//Searches the inventory for the item entered.
+			inventory.search(products, searchName.Text);
         }
 
 		private void updateName_TextChanged(object sender, EventArgs e)

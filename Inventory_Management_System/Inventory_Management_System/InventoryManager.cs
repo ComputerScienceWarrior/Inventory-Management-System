@@ -43,14 +43,17 @@ namespace Inventory_Management_System
 
             //NEW CODE ATTEMPT TO CHECK ITEMS IN LIST BY NAME.. ****NEW CODE WORKS! 7/8/2019 Update****
             //Upon further testing, the 'item not found' works sometimes but loops through too many items, although it find the item searched for
-        public void search(List<InventoryItem> list, InventoryItem name)
+        public void search(List<InventoryItem> list, string searchTerm)
         {
-            //search using item name
-            for (int i = 0; i < list.Count; i++)
+            foreach(InventoryItem item in list)
             {
-				if (list.Contains(name))
+				if (item.ItemName == searchTerm)
 				{
-					//MessageBox.Show("Item " + name.ItemName + " found in Inventory!");
+					MessageBox.Show($"Found {searchTerm} in Inventory directory.");
+				}
+				else
+				{
+					MessageBox.Show($"Item {searchTerm} notfound!");
 				}
             }
         }
