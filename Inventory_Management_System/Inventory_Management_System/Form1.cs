@@ -243,11 +243,20 @@ namespace Inventory_Management_System
                 {
                     //change this to display searched item in listbox
                     MessageBox.Show("Item " + searchName.Text + " found in Inventory!");
-                }
+				}
+				else
+				{
+					MessageBox.Show("Nothing found.");
+				}
             }
         }
 
 		private void updateName_TextChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void homeScreen_Load(object sender, EventArgs e)
 		{
 
 		}

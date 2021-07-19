@@ -267,6 +267,7 @@
 			this.Controls.Add(this.displayButton);
 			this.Name = "homeScreen";
 			this.Text = "Inventory Management System";
+			this.Load += new System.EventHandler(this.homeScreen_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
